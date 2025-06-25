@@ -21,7 +21,7 @@ const ChatApp = ()=>{
         // TODO : Write logic to handle response...
     }
 
-    const handleSendMessage = (content, type = 'text', imageUrl = null) => {
+    const handleSendMessage = async (content, type = 'text', imageUrl = null) => {
         const userMessage = {
         id: Date.now(),
         type: type,
