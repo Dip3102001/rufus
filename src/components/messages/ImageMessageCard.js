@@ -1,3 +1,6 @@
+import React from 'react';
+import {User} from 'lucide-react';
+
 const ImageMessageCard = ({ message }) => (
   <div className="flex justify-end mb-4">
     <div className="flex flex-row-reverse items-end gap-2 max-w-xs">

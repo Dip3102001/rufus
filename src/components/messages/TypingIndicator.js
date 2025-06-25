@@ -1,3 +1,6 @@
+import React from 'react';
+import {Bot} from 'lucide-react';
+
 const TypingIndicator = () => (
   <div className="flex justify-start mb-4">
     <div className="flex flex-row items-end gap-2">

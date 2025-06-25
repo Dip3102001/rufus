@@ -1,3 +1,6 @@
+import React from 'react';
+import {Bot, Star, Heart} from 'lucide-react';
+
 const ProductMessageCard = ({ message }) => (
   <div className="flex justify-start mb-4">
     <div className="flex flex-row items-end gap-2 max-w-md">
