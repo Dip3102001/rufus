@@ -1,4 +1,4 @@
-import React, {useState, useRef} from 'react';
+import {useState, useRef} from 'react';
 import {Camera, Send} from 'lucide-react';
 
 const ChatInput = ({ onSendMessage, disabled }) => {

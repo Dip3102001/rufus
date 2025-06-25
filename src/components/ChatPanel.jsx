@@ -12,3 +12,5 @@ const ChatPanel = ({ messages, isTyping, onSendMessage, showQuickReplies }) => (
     <ChatFooter />
   </div>
 );
+
+export default ChatPanel;

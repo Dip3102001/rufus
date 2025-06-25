@@ -1,5 +1,4 @@
-import React from 'react';
-import {User} from 'lucide-react';
+import {Bot, User} from 'lucide-react';
 
 const TextMessageCard = ({ message, isUser }) => (
   <div className={`flex ${isUser ? 'justify-end' : 'justify-start'} mb-4`}>
@@ -23,4 +22,4 @@ const TextMessageCard = ({ message, isUser }) => (
   </div>
 );
 
-export TextMessageCard;
+export default TextMessageCard;

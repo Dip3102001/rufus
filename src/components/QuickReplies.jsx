@@ -1,5 +1,3 @@
-import React from "react";
-
 const QuickReplies = ({ onReply }) => {
   const quickReplies = [
     "Show me sports items",

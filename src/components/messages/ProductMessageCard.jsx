@@ -1,4 +1,3 @@
-import React from 'react';
 import {Bot, Star, Heart} from 'lucide-react';
 
 const ProductMessageCard = ({ message }) => (

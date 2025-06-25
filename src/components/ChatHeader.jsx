@@ -1,4 +1,3 @@
-import React from 'react';
 import {Sparkles, ShoppingBag, Search} from 'lucide-react';
 
 const ChatHeader = () => (

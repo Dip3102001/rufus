@@ -1,4 +1,9 @@
-import React, {useRef} from 'react';
+import {useEffect, useRef} from 'react';
+
+import TypingIndicator from './messages/TypingIndicator';
+import ImageMessageCard from './messages/ImageMessageCard';
+import ProductMessageCard from './messages/ProductMessageCard';
+import TextMessageCard from './messages/TextMessageCard';
 
 const MessageList = ({ messages, isTyping }) => {
   const messagesEndRef = useRef(null);

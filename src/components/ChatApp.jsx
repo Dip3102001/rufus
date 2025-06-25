@@ -1,6 +1,6 @@
-import React, {useState} from 'react';
-import ChatHeader from './components/ChatHeader';
-import ChatPanel from './compartments/ChatPanel';
+import {useState} from 'react';
+import ChatHeader from './ChatHeader';
+import ChatPanel from './ChatPanel';
 
 const ChatApp = ()=>{
     const [messages, setMessages] = useState([
@@ -54,4 +54,4 @@ const ChatApp = ()=>{
   );
 };
 
-export default chatApp;
+export default ChatApp;
