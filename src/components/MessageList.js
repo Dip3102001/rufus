@@ -1,3 +1,5 @@
+import React, {useRef} from 'react';
+
 const MessageList = ({ messages, isTyping }) => {
   const messagesEndRef = useRef(null);
 
