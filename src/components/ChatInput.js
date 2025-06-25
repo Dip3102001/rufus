@@ -1,3 +1,6 @@
+import React, {useState, useRef} from 'react';
+import {Camera} from 'lucide-react';
+
 const ChatInput = ({ onSendMessage, disabled }) => {
   const [input, setInput] = useState('');
   const fileInputRef = useRef(null);
