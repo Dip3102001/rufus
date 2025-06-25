@@ -1,3 +1,6 @@
+import React from 'react';
+import {User} from 'lucide-react';
+
 const TextMessageCard = ({ message, isUser }) => (
   <div className={`flex ${isUser ? 'justify-end' : 'justify-start'} mb-4`}>
     <div className={`flex max-w-xs lg:max-w-md ${isUser ? 'flex-row-reverse' : 'flex-row'} items-end gap-2`}>
