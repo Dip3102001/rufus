@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
-
+import ChatHeader from './components/ChatHeader';
+import ChatPanel from './compartments/ChatPanel';
 
 const ChatApp = ()=>{
     const [messages, setMessages] = useState([
@@ -42,6 +43,13 @@ const ChatApp = ()=>{
 
     return (
         <div className="max-w-md mx-auto h-screen bg-gray-100 flex flex-col shadow-2xl">
+            <ChatHeader />
+            <ChatPanel 
+                messages={messages}
+                isTyping={isTyping}
+                onSendMessage={handleSendMessage}
+                showQuickReplies={showQuickReplies && messages.length <= 2}
+            />
         </div>
   );
 };
