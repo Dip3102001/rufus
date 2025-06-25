@@ -1,3 +1,6 @@
+import React from 'react';
+import {Sparkles, ShoppingBag, Search} from 'lucide-react';
+
 const ChatHeader = () => (
   <div className="bg-gradient-to-r from-purple-600 to-pink-600 text-white p-4 shadow-lg">
     <div className="flex items-center gap-3">
