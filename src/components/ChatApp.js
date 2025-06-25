@@ -1,3 +1,6 @@
+import React, {useState} from 'react';
+
+
 const ChatApp = ()=>{
     const [messages, setMessages] = useState([
         {
