@@ -66,7 +66,3 @@ The `generateBotResponse` function is a placeholder. To add real AI responses:
 1. Integrate with AI service (OpenAI, etc.)
 2. Process user messages
 3. Return appropriate response types
-
-## License
-
-MIT License
