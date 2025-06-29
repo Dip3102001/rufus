@@ -1,8 +1,72 @@
-# React + Vite
+# AI Shopping Assistant Chat App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React chat interface that simulates an AI shopping assistant with product recommendations, image uploads, and interactive messaging.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Interactive chat UI with message bubbles
+- Image upload for product search
+- Product recommendation cards
+- Quick reply buttons
+- Typing indicators
+- Mobile-responsive design
+
+## Tech Stack
+
+- React 18 + Vite
+- Tailwind CSS
+- Lucide React icons
+
+## Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+Open `http://localhost:5173` in your browser.
+
+## Project Structure
+
+```
+src/
+├── components/
+│   ├── messages/          # Message components
+│   ├── ChatApp.jsx        # Main app
+│   ├── ChatInput.jsx      # Input with image upload
+│   └── ...
+├── data/catalog.js        # Mock product data
+└── ...
+```
+
+## Customization
+
+**Add products** in `src/data/catalog.js`:
+```javascript
+{
+  id: 6,
+  name: "Product Name",
+  price: 99.99,
+  image: "image-url",
+  category: "category",
+  rating: 4.5,
+  description: "Description"
+}
+```
+
+**Modify quick replies** in `src/components/QuickReplies.jsx`.
+
+## Development Notes
+
+The `generateBotResponse` function is a placeholder. To add real AI responses:
+
+1. Integrate with AI service (OpenAI, etc.)
+2. Process user messages
+3. Return appropriate response types
+
+## License
+
+MIT License
